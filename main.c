@@ -2,6 +2,5 @@
 
 main()
 {
-    
     printf("Hellow, world\n");
 }
