@@ -3,9 +3,18 @@ project(c)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES 1/1.c)
-set(SOURCE_FILES 1/2.c)
-set(SOURCE_FILES 1/3.c)
-set(SOURCE_FILES 1/4.c)
-set(SOURCE_FILES 1/5.c)
-add_executable(c ${SOURCE_FILES})
+
+set(SOURCE_FILES_1_1 1/1.c)
+add_executable(c_1_1 ${SOURCE_FILES_1_1})
+
+set(SOURCE_FILES_1_2 1/2.c)
+add_executable(c_1_2 ${SOURCE_FILES_1_2})
+
+set(SOURCE_FILES_1_3 1/3.c)
+add_executable(c_1_3 ${SOURCE_FILES_1_3})
+
+set(SOURCE_FILES_1_4 1/4.c)
+add_executable(c_1_4 ${SOURCE_FILES_1_4})
+
+set(SOURCE_FILES_1_5 1/5.c)
+add_executable(c_1_5 ${SOURCE_FILES_1_5})
