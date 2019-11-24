@@ -19,5 +19,8 @@ add_executable(c_1_4 ${SOURCE_FILES_1_4})
 set(SOURCE_FILES_1_5 1/5.c)
 add_executable(c_1_5 ${SOURCE_FILES_1_5})
 
+set(SOURCE_FILES_1_5_1_i 1/5_1_i.c)
+add_executable(c_1_5_1_i ${SOURCE_FILES_1_5_1_i})
+
 set(SOURCE_FILES_1_6 1/6.c)
 add_executable(c_1_6 ${SOURCE_FILES_1_6})
