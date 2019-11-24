@@ -4,9 +4,8 @@
  * Write a program to print the corresponding Celsius to Fahrenheit table
  */
 
-main()
+int main()
 {
-
     float fahr, celcius;
     int lower, upper, step;
 

@@ -7,7 +7,7 @@
 #define UPPER 300
 #define STEP 20
 
-main()
+int main()
 {
     int fahr;
 

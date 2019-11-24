@@ -4,9 +4,8 @@
  * Modify the temperature conversion program to print a heading above the table
  */
 
-main()
+int main()
 {
-
     float fahr, celcius;
     int lower, upper, step;
 
